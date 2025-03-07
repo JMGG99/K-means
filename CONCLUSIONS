@@ -1,0 +1,13 @@
+CONCLUSIONS:
+Application of K-Means:
+We grouped obesity data into different segments based on variables such as age, eating habits, and physical activity.
+The elbow method did not show a clear inflection point, indicating that the data structure does not have well-defined clusters.
+
+Clustering Evaluation:
+The Silhouette Score values were relatively low (~0.14), suggesting that the clusters might not be well separated.
+This could be due to the features lacking a natural grouping structure or the need to use a different clustering method.
+
+Possible Improvements:
+Try other clustering methods, such as DBSCAN or Mean Shift, which can detect more flexible patterns without requiring a predefined number of clusters.
+Apply dimensionality reduction (PCA or t-SNE) to better visualize the data structure before performing clustering.
+Use clustering as feature engineering and test supervised models like Random Forest or a neural network to predict obesity levels with greater accuracy.
